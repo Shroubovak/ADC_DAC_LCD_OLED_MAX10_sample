@@ -1,0 +1,16 @@
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\My_Projects\Altera_Quartus\_Dev_Boards\_Be_Micro_MAX10\_DAC_test\adc.qsys --synthesis=VERILOG --output-directory=D:\My_Projects\Altera_Quartus\_Dev_Boards\_Be_Micro_MAX10\_DAC_test\adc\synthesis --family="MAX 10" --part=10M08DAF484C8GES
+Progress: Loading _DAC_test/adc.qsys
+Progress: Reading input file
+Progress: Adding modular_adc_0 [altera_modular_adc 18.1]
+Progress: Parameterizing module modular_adc_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: adc: Generating adc "adc" for QUARTUS_SYNTH
+Info: modular_adc_0: "adc" instantiated altera_modular_adc "modular_adc_0"
+Info: control_internal: "modular_adc_0" instantiated altera_modular_adc_control "control_internal"
+Info: adc: Done "adc" with 3 modules, 9 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
