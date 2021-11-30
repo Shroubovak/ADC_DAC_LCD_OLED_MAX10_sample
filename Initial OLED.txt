@@ -1,0 +1,19 @@
+Initial commands for OLED MT-6432TSWEG02 (only one mode: Page Addressing Mode)
+
+808d 8014 [Activate internal power supply]
+
+80B0      [Set Page Start] 		
+
+80a1      [Set Segment Re-map] 		
+
+80c8      [Set COM Output Scan Direction]
+
+80d3 8060 [Set Display Offset]
+
+8000      [Set Lower Column Start Address]
+
+8012      [Set Higher Column Start Address]
+
+8081 80ee [Set Contrast Control]
+
+80af      [Set Display ON]
